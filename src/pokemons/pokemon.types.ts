@@ -1,10 +1,10 @@
-import { WithId } from '../types/utils';
+import type { WithId } from "../types/utils";
 
 export type Pokemon = WithId<{
-  name: string;
+	name: string;
 }>;
 
 export type PokemonList = {
-  name: string;
-  url: string;
+	name: string;
+	url: string;
 }[];

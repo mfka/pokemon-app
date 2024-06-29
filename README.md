@@ -5,3 +5,4 @@
 3. TypeScript 
 4. Vite
 5. Tailwind
+6. Biome

@@ -1,5 +1,5 @@
-import useSWR from 'swr';
+import useSWR from "swr";
 
-import { providePokemonList } from '@pokemons/pokemon.provider';
+import { providePokemonList } from "@pokemons/pokemon.provider";
 
-export const useSWRPokemonList = () => useSWR('/pokemon', providePokemonList);
+export const useSWRPokemonList = () => useSWR("/pokemon", providePokemonList);
